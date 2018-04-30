@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea2</title>
+	<meta charset="utf-8">
+
+<style type="text/css">
+	@font-face
+	{
+	font-family: "The_Emperors";
+	src: url(fonts/The_Emperors_font.ttf)
+	}
+div.Background
+	{
+	background-color:red; 
+	padding: 100px;
+	}
+p.Header
+	{
+	font-family: "The_Emperors";
+	text-align: center; 
+	font-size: 50px; 
+	color: #ff9933;
+	font-weight: bold;
+	}
+p.subtexto1
+	{
+	text-align: center; 
+	font-size: 25px; 
+	color: white;
+	}
+div.background2
+	{
+	background-color:blue;
+	padding: 100px;
+	}
+.cuzco
+	{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	}
+.parrafo3
+	{	
+	font-family: "The_Emperors";
+	position: absolute;
+	width: 95%;
+	text-align: right; 
+	font-size: 50px; 
+	color: yellow;
+	font-weight: bold;	
+	}
+.subtexto3
+	{
+	position: absolute;
+	width: 95%;
+	text-align: right; 
+	font-size: 30px; 
+	color: white;
+	max-height: 100px;
+	}
+.cuzco2
+    {
+    display: block;
+    margin: 0px;
+    height: 1000px;
+    background-image: url(“/assets/images/cuzco2.jpg”);
+    border-image-width: 0px;
+	}
+
+.parrafo4
+	{
+	font-family: "The_Emperors";
+	text-align: center; 
+	font-size: 60px; 
+	max-height: 0px;
+	color: black;
+	font-weight: bold;
+	}
+
+p.subtexto4
+	{
+	font-family: "The_Emperors";
+    margin-left: -300px;
+    max-height: 10px;
+	font-size: 50px; 
+	color: black;
+	}
+
+</style>
+</head>
+
+<body>
+	<div class="Background"> <p class="Header"> Las locuras del Emperador !</p>
+		<p class="subtexto1">Nuestra primera página web</p>
+	</div>
+
+	<div class="background2">
+	 <img src="../tarea2/assets/images/cuzco.jpg" class="cuzco">
+</div>
+
+	<div> 
+	
+		<p class="parrafo3"> Cuzco !!</p> 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p class="subtexto3"> Ooh, sí... el veneno...
+			<br>
+			El veneno para Cuzco...
+			<br>
+			El veneno que usaremos para matar a Cuzco
+			<br>
+			El veneno de Cuzco
+			<br>
+			claro...
+			<br>
+			Ese veneno</p>
+		<img src="../tarea2/assets/images/cuzco2.jpg" class="cuzco2">
+		</div>
+	<div class="parrafo4"> 
+	<p class="d">Precios</p>
+	<p class="subtexto4">- $10.00</p>
+	<p class="subtexto4">µ $21.00</p>
+	<p class="subtexto4">© $35.00</p>
+	<br>
+	 </div>
+
+</body>
+</html>
